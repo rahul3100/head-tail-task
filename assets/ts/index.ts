@@ -13,7 +13,7 @@ document.getElementById("submitBtn")?.addEventListener("click", () => {
     let html: any;
     html = `<ul>`;
     let last = "";
-    arr.map((item) => {      
+    arr.map((item) => {       
         if (item !== last) {
             html += `</ul><ul>`;
         }
