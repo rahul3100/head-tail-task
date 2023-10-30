@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+.error {
+    color: red;
+}
+
+ul {
+    float: left;
+    width: auto;
+}
+
+li {
+    list-style: none;
+}

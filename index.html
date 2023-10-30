@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+    <section class="container d-flex">
+        <div>
+            <select class="m-2 p-1" name="coin" id="selectOption">
+                <option value="">select</option>
+                <option id="head" value="Head">Head</option>
+                <option id="Tail" value="Tail">Tail</option>
+            </select>
+        </div>
+        <div>
+            <button type="button" class="btn btn-secondary m-1" id="submitBtn">submit</button>
+        </div>
+    </section>
+    <div class="container px-3 text-danger">
+        <p id="error"></p>
+    </div>
+    <div id="printData">
+
+    </div>
+
+    <script src="./assets/js/bootstrap.bundle.js"></script>
+    <script src="./assets/ts/index.js"></script>
+</body>
+
+</html>
